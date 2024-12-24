@@ -1,26 +1,26 @@
 // DSA C++
 
-// #include <iostream>
-// using namespace std;
-// int main() {
-//     int age = 24; //4 bytes
-//     string name = "Yeshwanth Chauhan"; // 1 byte per character
-//     float PI = 3.14f; //4 bytes
-//     bool isSafe = true; //1 byte
-//     double price = 100.50; //8 bytes
-//     cout << "My name is " << name << " and I am " << age << " years old .\n" ;
-//     cout << (PI) << "\n";
-//     cout << "Below iss the size of name and age var \n";
-//     cout <<  sizeof(name) << endl;   //Gives the size of the string 
-//     cout << sizeof(age) << endl;    // Gives the size of the integer
-//     return 0;
+#include <iostream>
+using namespace std;
+int main() {
+    int age = 24; //4 bytes
+    string name = "Yeshwanth Chauhan"; // 1 byte per character
+    float PI = 3.14f; //4 bytes
+    bool isSafe = true; //1 byte
+    double price = 100.50; //8 bytes
+    cout << "My name is " << name << " and I am " << age << " years old .\n" ;
+    cout << (PI) << "\n";
+    cout << "Below iss the size of name and age var \n";
+    cout <<  sizeof(name) << endl;   //Gives the size of the string 
+    cout << sizeof(age) << endl;    // Gives the size of the integer
+    return 0;
 
-// }
+}
 
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-//Type Casting in C++
+// Type Casting in C++
 
 // #include <iostream>
 // using namespace std;
