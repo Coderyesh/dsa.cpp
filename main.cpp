@@ -69,42 +69,42 @@
 
 //simple calculator in C++
 
-#include <iostream>
-using namespace std;
-int main() {
+// #include <iostream>
+// using namespace std;
+// int main() {
 
-int a = 0;
-int b = 0;
-int c = 0;
-cout << "Enter the first number : ";
-cin >> b;
-cout << "Enter the second number : ";
-cin >> c;
-cout << "what do you want to do with the numbers?" << endl;
-cout << "1. Addition" << endl;
-cout << "2. Subtraction" << endl;
-cout << "3. Multiplication" << endl;
-cout << "4. Division" << endl;
-cout << "5. Modulus" << endl;
-int choice;
-cin >> choice;
-switch (choice) { 
-    case 1: a = b + c;
-    break;
-    case 2: a = b - c;
-    break;
-    case 3: a = b * c;
-    break;
-    case 4: a = b / c;
-    break;
-    case 5: a = b % c;
-    break;
-    default: cout << "Invalid choice";
-    }
-    cout << "The result is : " << a << endl;
-    return 0;
+// int a = 0;
+// int b = 0;
+// int c = 0;
+// cout << "Enter the first number : ";
+// cin >> b;
+// cout << "Enter the second number : ";
+// cin >> c;
+// cout << "what do you want to do with the numbers?" << endl;
+// cout << "1. Addition" << endl;
+// cout << "2. Subtraction" << endl;
+// cout << "3. Multiplication" << endl;
+// cout << "4. Division" << endl;
+// cout << "5. Modulus" << endl;
+// int choice;
+// cin >> choice;
+// switch (choice) { 
+//     case 1: a = b + c;
+//     break;
+//     case 2: a = b - c;
+//     break;
+//     case 3: a = b * c;
+//     break;
+//     case 4: a = b / c;
+//     break;
+//     case 5: a = b % c;
+//     break;
+//     default: cout << "Invalid choice";
+//     }
+//     cout << "The result is : " << a << endl;
+//     return 0;
     
-}
+// }
 
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
